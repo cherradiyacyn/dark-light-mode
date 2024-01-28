@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- this what allows the system to switch modes -->
+    <meta name="color-scheme" content="dark light" />
+    <title>Dark/Light</title>
+    <link rel="stylesheet" href="/init.css" />
+  </head>
+  <body>
+    <figure>
+      <picture>
+        <source srcset="/light.svg" media="(prefers-color-scheme: dark)" />
+        <img src="/dark.svg" alt="toggle" />
+      </picture>
+      <figcaption>
+        The Dark/Light mode of the website changes according to your system's
+        mode. and also in this example the image src changes accordinlgly using
+        the helpful properties of the picture HTML element.
+      </figcaption>
+    </figure>
+  </body>
+</html>
